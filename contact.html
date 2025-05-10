@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Handloom Sarees</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-color: #fff0f5; /* Light pink background */
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #DE1363;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 200px;
+            color: white;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+
+        form button {
+            background-color: #8b0000;
+            color: white;
+            border: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #a52a2a;
+        }
+
+        .whatsapp-contact {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .whatsapp-contact a {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 12px 24px;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .whatsapp-contact a:hover {
+            background-color: #1ebe5b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- WhatsApp Contact Option -->
+        <div class="whatsapp-contact">
+            <p>Or contact us directly on WhatsApp:</p>
+            <a href="https://wa.me/91XXXXXXXXXX" target="_blank">Chat on WhatsApp</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Handloom by [Your Name]. All rights reserved.
+    </footer>
+</body>
+</html>

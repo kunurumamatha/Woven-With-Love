@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ikkat Sarees</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-color: #fef9f4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: maroon;
+            border-bottom: 1px solid #e0cfcf;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            color: #ffffff;
+        }
+
+        nav a {
+            margin: 0 12px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .container.grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #fffdf8;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .product img {
+            width: 100%;
+            max-height: 250px;
+            object-fit: contain;
+            background-color: #f9f9f9;
+            padding: 5px;
+            border-radius: 6px;
+        }
+
+        .product h3 {
+            margin: 10px 0 5px;
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .product p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        .cart-btn {
+            margin-top: 10px;
+            background-color: maroon;
+            color: white;
+            border: none;
+            padding: 8px 14px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .cart-btn:hover {
+            background-color: #8b0000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f2f2f2;
+            font-size: 0.9rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 600px) {
+            .container.grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ikkat Sarees Collection</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container grid">
+        <div class="product">
+            <img src="images/blue.jpeg" alt="Ikkat Saree 1">
+            <h3>Blue And Black Color Ikkat Saree</h3>
+            <p>Beautiful pattern with traditional flair.</p>
+            <p><strong>Price:</strong> ₹1,850</p>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/orangebrown.jpg" alt="Ikkat Saree 2">
+            <h3>Brown And Orange Color Ikkat Saree </h3>
+            <p>Vibrant colors and handwoven design.</p>
+            <p><strong>Price:</strong> ₹1,950</p>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/greenyello.jpeg" alt="Ikkat Saree 3">
+            <h3>Green Color Ikkat Saree</h3>
+            <p>Graceful and eye-catching craftsmanship.</p>
+            <p><strong>Price:</strong> ₹1,890</p>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/pink.jpeg" alt="Ikkat Saree 4">
+            <h3>Pink And Blue Color Ikkat Saree</h3>
+            <p>Graceful and eye-catching craftsmanship.</p>
+            <p><strong>Price:</strong> ₹2,000</p>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/yellows%20saree.jpeg" alt="Ikkat Saree 5">
+            <h3>Yellow And Green Color Ikkat Saree</h3>
+            <p>Traditional and elegant color tone.</p>
+            <p><strong>Price:</strong> ₹1,770</p>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/orange.webp" alt="Ikkat Saree 6">
+            <h3>Orange Color Ikkat Saree</h3>
+            <p>Chic and stylish for all occasions.</p>
+            <p><strong>Price:</strong> ₹1,850</p>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/white.jpeg" alt="Ikkat Saree 7">
+            <h3>White And Blue Color Ikkat Saree</h3>
+            <p>Soft, elegant and easy to wear.</p>
+            <p><strong>Price:</strong> ₹1,920</p>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/orangegreen.jpg" alt="Ikkat Saree 8">
+            <h3>Orange Color Ikkat Saree</h3>
+            <p>Modern patterns with classic vibes.</p>
+            <p><strong>Price:</strong> ₹1,860</p>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/lemon yellow saree.webp" alt="Ikkat Saree 9">
+            <h3>White and Black Color Ikkat Saree</h3>
+            <p>Bright, beautiful and handcrafted.</p>
+            <p><strong>Price:</strong> ₹1,780</p>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/orangeblue.jpeg" alt="Ikkat Saree 10">
+            <h3>Orange And Blue Ikkat Saree</h3>
+            <p>Timeless style in contemporary colors.</p>
+            <p><strong>Price:</strong> ₹1,970</p>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Handloom by [Your Name]. All rights reserved.
+    </footer>
+</body>
+</html>
