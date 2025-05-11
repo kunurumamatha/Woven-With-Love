@@ -32,8 +32,8 @@ header {
 
 h1 {
   font-size: 2rem;
-  margin-right: 10px;
   text-align: center;
+  margin: 0; /* Removes default spacing */
 }
 
 .logo {
@@ -60,25 +60,40 @@ nav a:hover {
   color: #ffcccb;
 }
 
-/* Hero Section with Animated Background */
+/* Hero Section with Text + Image */
 .hero {
-  background-image: url('../images/hoo.gif'); /* Replace with your animated image path */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 80vh;
-  width: 100%;
+  background-color: #fff; /* Use a background color if not using background-image */
+  padding: 2rem 1rem;
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 1rem;
-  text-align: center;
+  flex-direction: column;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  color: #8b0000;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-content img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
 }
 
 /* Main Container Full Width */
 .container {
   width: 100%;
-  background-color: #DE3163; /* Light background */
+  background-color: #DE3163;
   padding: 3rem 2rem;
   text-align: center;
   box-sizing: border-box;
@@ -133,8 +148,12 @@ footer {
   }
 
   .hero {
-    height: 60vh;
-    padding: 1rem;
+    height: auto;
+    padding: 1.5rem 1rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
   }
 
   .container {
